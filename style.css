@@ -1,0 +1,1706 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #333;
+    font-family: 'Solway', serif;
+}
+h1 {
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+
+.logo {
+    padding: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#mando-tabs {
+    display: grid;
+    width: 90%;
+    max-width: 1200px;
+    position: relative;
+    /*margin: auto;*/
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tab {
+    border: 1.5px solid #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.noborder-tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.note-circle {
+    background-color: #e77309;
+    color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*markers*/
+
+.marker.tab0 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab3 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab5 {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab7 {
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab10 {
+    grid-column-start: 11;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab12 {
+    grid-column-start: 13;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab15 {
+    grid-column-start: 16;
+    grid-column-end: 16;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab17 {
+    grid-column-start: 18;
+    grid-column-end: 18;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab20 {
+    grid-column-start: 21;
+    grid-column-end: 21;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab22 {
+    grid-column-start: 23;
+    grid-column-end: 23;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab24 {
+    grid-column-start: 25;
+    grid-column-end: 25;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+
+/*string4*/
+
+.string4.tab0 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab3 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab4 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab5 {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab6 {
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab7 {
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab8 {
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab9 {
+    grid-column-start: 10;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab10 {
+    grid-column-start: 11;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab11 {
+    grid-column-start: 12;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab12 {
+    grid-column-start: 13;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab13 {
+    grid-column-start: 14;
+    grid-column-end: 14;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab14 {
+    grid-column-start: 15;
+    grid-column-end: 15;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab15 {
+    grid-column-start: 16;
+    grid-column-end: 16;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab16 {
+    grid-column-start: 17;
+    grid-column-end: 17;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab17 {
+    grid-column-start: 18;
+    grid-column-end: 18;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab18 {
+    grid-column-start: 19;
+    grid-column-end: 19;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab19 {
+    grid-column-start: 20;
+    grid-column-end: 20;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab20 {
+    grid-column-start: 21;
+    grid-column-end: 21;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab21 {
+    grid-column-start: 22;
+    grid-column-end: 22;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab22 {
+    grid-column-start: 23;
+    grid-column-end: 23;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab23 {
+    grid-column-start: 24;
+    grid-column-end: 24;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.string4.tab24 {
+    grid-column-start: 25;
+    grid-column-end: 25;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+/*string 3*/
+.string3.tab0 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab3 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab4 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab5 {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab6 {
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab7 {
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab8 {
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab9 {
+    grid-column-start: 10;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab10 {
+    grid-column-start: 11;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab11 {
+    grid-column-start: 12;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab12 {
+    grid-column-start: 13;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab13 {
+    grid-column-start: 14;
+    grid-column-end: 14;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab14 {
+    grid-column-start: 15;
+    grid-column-end: 15;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab15 {
+    grid-column-start: 16;
+    grid-column-end: 16;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab16 {
+    grid-column-start: 17;
+    grid-column-end: 17;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab17 {
+    grid-column-start: 18;
+    grid-column-end: 18;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab18 {
+    grid-column-start: 19;
+    grid-column-end: 19;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab19 {
+    grid-column-start: 20;
+    grid-column-end: 20;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab20 {
+    grid-column-start: 21;
+    grid-column-end: 21;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab21 {
+    grid-column-start: 22;
+    grid-column-end: 22;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab22 {
+    grid-column-start: 23;
+    grid-column-end: 23;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab23 {
+    grid-column-start: 24;
+    grid-column-end: 24;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string3.tab24 {
+    grid-column-start: 25;
+    grid-column-end: 25;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.string2.tab0 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab3 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab4 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab5 {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab6 {
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab7 {
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab8 {
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab9 {
+    grid-column-start: 10;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab10 {
+    grid-column-start: 11;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab11 {
+    grid-column-start: 12;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab12 {
+    grid-column-start: 13;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab13 {
+    grid-column-start: 14;
+    grid-column-end: 14;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab14 {
+    grid-column-start: 15;
+    grid-column-end: 15;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab15 {
+    grid-column-start: 16;
+    grid-column-end: 16;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab16 {
+    grid-column-start: 17;
+    grid-column-end: 17;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab17 {
+    grid-column-start: 18;
+    grid-column-end: 18;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab18 {
+    grid-column-start: 19;
+    grid-column-end: 19;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab19 {
+    grid-column-start: 20;
+    grid-column-end: 20;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab20 {
+    grid-column-start: 21;
+    grid-column-end: 21;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab21 {
+    grid-column-start: 22;
+    grid-column-end: 22;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab22 {
+    grid-column-start: 23;
+    grid-column-end: 23;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab23 {
+    grid-column-start: 24;
+    grid-column-end: 24;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string2.tab24 {
+    grid-column-start: 25;
+    grid-column-end: 25;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.string1.tab0 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab1 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab3 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab4 {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab5 {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab6 {
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab7 {
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab8 {
+    grid-column-start: 9;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab9 {
+    grid-column-start: 10;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab10 {
+    grid-column-start: 11;
+    grid-column-end: 11;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab11 {
+    grid-column-start: 12;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab12 {
+    grid-column-start: 13;
+    grid-column-end: 13;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab13 {
+    grid-column-start: 14;
+    grid-column-end: 14;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab14 {
+    grid-column-start: 15;
+    grid-column-end: 15;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab15 {
+    grid-column-start: 16;
+    grid-column-end: 16;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab16 {
+    grid-column-start: 17;
+    grid-column-end: 17;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab17 {
+    grid-column-start: 18;
+    grid-column-end: 18;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab18 {
+    grid-column-start: 19;
+    grid-column-end: 19;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab19 {
+    grid-column-start: 20;
+    grid-column-end: 20;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab20 {
+    grid-column-start: 21;
+    grid-column-end: 21;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab21 {
+    grid-column-start: 22;
+    grid-column-end: 22;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab22 {
+    grid-column-start: 23;
+    grid-column-end: 23;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab23 {
+    grid-column-start: 24;
+    grid-column-end: 24;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.string1.tab24 {
+    grid-column-start: 25;
+    grid-column-end: 25;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+#choices {
+    /*width: 90%;*/
+    /*margin: auto;*/
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 3px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #09E797;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      background: white;
+  }
+
+  .list-display {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 150px;
+  }
+
+  .overall-options {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  #overall-sort {
+      display: flex;
+      width: 90%;
+      max-width: 1200px;
+      justify-content: space-evenly;
+  }
+
+  label, h2 {
+    padding-right: 20px;
+  }
+
+  #choice-root, #choice-variation {
+      width: 400px;
+  }
+
+  footer {
+      color: #09E797;
+      margin-bottom: 30px;
+      font-size: 12px;
+  }
+
+  .hide-circle {
+    display:none;
+}
+
+@media only screen and (max-width: 700px) {
+
+    #mando-tabs {
+        display: grid;
+        width: auto;
+        max-width: 600px;
+        position: relative;
+        /*margin: auto;*/
+        grid-template-columns: 50px 50px 50px 50px 50px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        font-weight: 500;
+        font-size: 18px;
+        margin-left: -25px;
+
+    }
+
+    .overall-options {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+  
+    #overall-sort {
+        display: flex;
+        width: 90%;
+        max-width: 1200px;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    #choices {
+        width: 90%;
+        /*margin: auto;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+
+.marker.tab0 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.marker.tab3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.marker.tab5 {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.marker.tab7 {
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.marker.tab10 {
+    grid-row-start: 11;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.marker.tab12 {
+    grid-row-start: 13;
+    grid-row-end: 13;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.marker.tab15 {
+    grid-row-start: 16;
+    grid-row-end: 16;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.marker.tab17 {
+    grid-row-start: 18;
+    grid-row-end: 18;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.marker.tab20 {
+    grid-row-start: 21;
+    grid-row-end: 21;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.marker.tab22 {
+    grid-row-start: 23;
+    grid-row-end: 23;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.marker.tab24 {
+    grid-row-start: 25;
+    grid-row-end: 25;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+
+/*string4*/
+
+.string4.tab0 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab1 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab2 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab3 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab4 {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab5 {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab6 {
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab7 {
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab8 {
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab9 {
+    grid-row-start: 10;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab10 {
+    grid-row-start: 11;
+    grid-row-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab11 {
+    grid-row-start: 12;
+    grid-row-end: 12;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab12 {
+    grid-row-start: 13;
+    grid-row-end: 13;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab13 {
+    grid-row-start: 14;
+    grid-row-end: 14;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab14 {
+    grid-row-start: 15;
+    grid-row-end: 15;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab15 {
+    grid-row-start: 16;
+    grid-row-end: 16;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab16 {
+    grid-row-start: 17;
+    grid-row-end: 17;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab17 {
+    grid-row-start: 18;
+    grid-row-end: 18;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab18 {
+    grid-row-start: 19;
+    grid-row-end: 19;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab19 {
+    grid-row-start: 20;
+    grid-row-end: 20;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab20 {
+    grid-row-start: 21;
+    grid-row-end: 21;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab21 {
+    grid-row-start: 22;
+    grid-row-end: 22;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab22 {
+    grid-row-start: 23;
+    grid-row-end: 23;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab23 {
+    grid-row-start: 24;
+    grid-row-end: 24;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.string4.tab24 {
+    grid-row-start: 25;
+    grid-row-end: 25;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+/*string 3*/
+.string3.tab0 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab1 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab2 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab3 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab4 {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab5 {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab6 {
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab7 {
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab8 {
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab9 {
+    grid-row-start: 10;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab10 {
+    grid-row-start: 11;
+    grid-row-end: 11;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab11 {
+    grid-row-start: 12;
+    grid-row-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab12 {
+    grid-row-start: 13;
+    grid-row-end: 13;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab13 {
+    grid-row-start: 14;
+    grid-row-end: 14;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab14 {
+    grid-row-start: 15;
+    grid-row-end: 15;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab15 {
+    grid-row-start: 16;
+    grid-row-end: 16;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab16 {
+    grid-row-start: 17;
+    grid-row-end: 17;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab17 {
+    grid-row-start: 18;
+    grid-row-end: 18;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab18 {
+    grid-row-start: 19;
+    grid-row-end: 19;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab19 {
+    grid-row-start: 20;
+    grid-row-end: 20;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab20 {
+    grid-row-start: 21;
+    grid-row-end: 21;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab21 {
+    grid-row-start: 22;
+    grid-row-end: 22;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab22 {
+    grid-row-start: 23;
+    grid-row-end: 23;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab23 {
+    grid-row-start: 24;
+    grid-row-end: 24;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string3.tab24 {
+    grid-row-start: 25;
+    grid-row-end: 25;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.string2.tab0 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab1 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab2 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab3 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab4 {
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab5 {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab6 {
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab7 {
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab8 {
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab9 {
+    grid-row-start: 10;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab10 {
+    grid-row-start: 11;
+    grid-row-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab11 {
+    grid-row-start: 12;
+    grid-row-end: 12;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab12 {
+    grid-row-start: 13;
+    grid-row-end: 13;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab13 {
+    grid-row-start: 14;
+    grid-row-end: 14;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab14 {
+    grid-row-start: 15;
+    grid-row-end: 15;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab15 {
+    grid-row-start: 16;
+    grid-row-end: 16;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab16 {
+    grid-row-start: 17;
+    grid-row-end: 17;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab17 {
+    grid-row-start: 18;
+    grid-row-end: 18;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab18 {
+    grid-row-start: 19;
+    grid-row-end: 19;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab19 {
+    grid-row-start: 20;
+    grid-row-end: 20;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab20 {
+    grid-row-start: 21;
+    grid-row-end: 21;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab21 {
+    grid-row-start: 22;
+    grid-row-end: 22;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab22 {
+    grid-row-start: 23;
+    grid-row-end: 23;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab23 {
+    grid-row-start: 24;
+    grid-row-end: 24;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string2.tab24 {
+    grid-row-start: 25;
+    grid-row-end: 25;
+    grid-column-start: 4;
+    grid-column-end: 4;
+}
+
+.string1.tab0 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab1 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab2 {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab3 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab4 {
+    grid-row-start: 5;
+    grid-column-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab5 {
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab6 {
+    grid-row-start: 7;
+    grid-row-end: 7;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab7 {
+    grid-row-start: 8;
+    grid-row-end: 8;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab8 {
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab9 {
+    grid-row-start: 10;
+    grid-row-end: 10;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab10 {
+    grid-row-start: 11;
+    grid-row-end: 11;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab11 {
+    grid-row-start: 12;
+    grid-row-end: 12;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab12 {
+    grid-row-start: 13;
+    grid-row-end: 13;
+    grid-column-start: 5;
+    grid-column-end: 5;
+}
+
+.string1.tab13, .string1.tab14, .string1.tab15, .string1.tab16, .string1.tab17, .string1.tab18, .string1.tab19, .string1.tab20, .string1.tab21, .string1.tab22, .string1.tab23, .string1.tab24 { display:none;}
+
+.string2.tab13, .string2.tab14, .string2.tab15, .string2.tab16, .string2.tab17, .string2.tab18, .string2.tab19, .string2.tab20, .string2.tab21, .string2.tab22, .string2.tab23, .string2.tab24, .string3.tab13, .string3.tab14, .string3.tab15, .string3.tab16, .string3.tab17, .string3.tab18, .string3.tab19, .string3.tab20, .string3.tab21, .string3.tab22, .string3.tab23, .string3.tab24, .string4.tab13, .string4.tab14, .string4.tab15, .string4.tab16, .string4.tab17, .string4.tab18, .string4.tab19, .string4.tab20, .string4.tab21, .string4.tab22, .string4.tab23, .string4.tab24, .marker.tab13, .marker.tab14, .marker.tab15, .marker.tab16, .marker.tab17, .marker.tab18, .marker.tab19, .marker.tab20, .marker.tab21, .marker.tab22, .marker.tab23, .marker.tab24 {
+  display:none;
+}
+
+}
